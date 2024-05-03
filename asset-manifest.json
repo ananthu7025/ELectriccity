@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ELectriccity/static/css/main.57148019.css",
+    "main.js": "/ELectriccity/static/js/main.35099044.js",
+    "static/js/453.419a5d54.chunk.js": "/ELectriccity/static/js/453.419a5d54.chunk.js",
+    "index.html": "/ELectriccity/index.html",
+    "main.57148019.css.map": "/ELectriccity/static/css/main.57148019.css.map",
+    "main.35099044.js.map": "/ELectriccity/static/js/main.35099044.js.map",
+    "453.419a5d54.chunk.js.map": "/ELectriccity/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57148019.css",
+    "static/js/main.35099044.js"
+  ]
+}

@@ -9,7 +9,7 @@ const App = () => {
     // Tariff structure
     const tariff = {
       1: { units: 50, rate: 3.25 },
-      2: { units: 50, rate: 4.05 },
+      2: { units: 50, rate: 5.0 },
       3: { units: 50, rate: 5.1 },
       4: { units: 50, rate: 6.95 },
       5: { units: 50, rate: 8.2 },

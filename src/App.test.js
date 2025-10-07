@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('calculates electricity bill correctly for 100 units', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  const input = screen.getByRole('textbox');
+  const button = screen.getByText('Calculate');
+
+  fireEvent.change(input, { target: { value: '100' } });
+  fireEvent.click(button);
+
+  const billDisplay = screen.getByText(/Total Bill:/);
+  expect(billDisplay).toHaveTextContent('₹1800.00');
 });

@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Enter Consumed Units:</h1>
+      <h1>Enter Consumed Unitds:</h1>
       <input
         className="input-field" // Apply CSS class for input field
         onChange={(event) => setConsumedUnits(event.target.value ? parseFloat(event.target.value) : null)} // Set to null if empty
